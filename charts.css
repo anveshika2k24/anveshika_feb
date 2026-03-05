@@ -1,0 +1,94 @@
+body{
+margin:0;
+font-family:'Poppins',sans-serif;
+background:#0d0221;
+color:white;
+}
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:#140023;
+}
+
+.logo{
+font-family:'Orbitron',sans-serif;
+font-size:24px;
+color:#BB86FC;
+}
+
+.nav-links a{
+margin-left:25px;
+text-decoration:none;
+color:#E9D5FF;
+font-size:15px;
+}
+
+.nav-links a:hover{
+color:#BB86FC;
+}
+
+
+/* PAGE */
+
+.analysis-page{
+padding:80px 8%;
+}
+
+
+/* SECTION */
+
+.analysis-section{
+display:flex;
+align-items:center;
+gap:60px;
+margin-bottom:80px;
+}
+
+
+/* CHART BOX */
+
+.chart-box{
+flex:1;
+background:rgba(20,0,35,0.9);
+border:1px solid rgba(187,134,252,0.3);
+border-radius:14px;
+padding:30px;
+box-shadow:0 0 25px rgba(187,134,252,0.3);
+}
+
+
+/* TEXT */
+
+.chart-info{
+flex:1;
+}
+
+.chart-info h2{
+font-family:'Orbitron',sans-serif;
+font-size:26px;
+color:#BB86FC;
+margin-bottom:15px;
+}
+
+.chart-info p{
+color:#D8B4FE;
+font-size:16px;
+line-height:1.7;
+}
+
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.analysis-section{
+flex-direction:column;
+text-align:center;
+}
+
+}

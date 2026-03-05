@@ -1,0 +1,115 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Body */
+body {
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffd700;
+}
+
+/* Hero Section */
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+/* Button */
+.hero-btn {
+  padding: 12px 30px;
+  background: #8a1005;
+  color: #f8f6f6;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.hero-btn:hover {
+  background: white;
+  transform: scale(1.05);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1a002b, #2e004f, #000000);
+  color: white;
+  margin: 0;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  z-index: 1000;
+}
+
+.logo {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 22px;
+  color: #bb86fc;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  margin-left: 30px;
+}
+
+.nav-links a:hover {
+  color: #bb86fc;
+}

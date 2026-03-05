@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Anveshika | Analysis</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="charts.css">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+<div class="logo">ANVESHIKA</div>
+
+<nav class="nav-links">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+</nav>
+
+</header>
+
+
+<main class="analysis-page">
+
+<!-- Bubble Chart -->
+<section class="analysis-section">
+
+<div class="chart-box">
+<canvas id="bubbleChart"></canvas>
+</div>
+
+<div class="chart-info">
+<h2>Seasonality vs Event Type</h2>
+<p>
+Bubble size represents number of guests across different event types.
+</p>
+</div>
+
+</section>
+
+
+<!-- Stacked Bar Chart -->
+
+<section class="analysis-section">
+
+<div class="chart-box">
+<canvas id="stackedBarChart"></canvas>
+</div>
+
+<div class="chart-info">
+<h2>Pricing vs Type of Food</h2>
+<p>
+Comparison of guest numbers based on pricing levels.
+</p>
+</div>
+
+</section>
+
+</main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="charts.js"></script>
+
+</body>
+</html>
