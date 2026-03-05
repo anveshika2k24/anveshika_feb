@@ -92,3 +92,37 @@ text-align:center;
 }
 
 }
+
+
+.charts-container{
+  display:flex;
+  gap:40px;
+  padding:60px;
+  justify-content:center;
+}
+
+.chart-box{
+  width:450px;
+  background:rgba(25,0,45,0.85);
+  border:1px solid rgba(187,134,252,0.3);
+  border-radius:16px;
+  padding:25px;
+  box-shadow:0 0 20px rgba(186,85,211,0.3);
+}
+
+/* MOBILE RESPONSIVE */
+
+@media(max-width:768px){
+
+.charts-container{
+  flex-direction:column;
+  align-items:center;
+  padding:40px 20px;
+}
+
+.chart-box{
+  width:100%;
+  max-width:450px;
+}
+
+}
